@@ -38,7 +38,6 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
         let picker = PHPickerViewController(configuration: configuration)
         picker.delegate = self
         present(picker, animated: true)
-//        pickerController.sourceType = .
         
     }
     
