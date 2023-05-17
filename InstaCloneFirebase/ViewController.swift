@@ -39,6 +39,8 @@ class ViewController: UIViewController {
             makeAlert(titleInput: "Error!", messageInput: "Username/Password?")
         }
         
+        print("Alper Ersoy \(emailText.text ?? "")")
+        
     }
     
     @IBAction func signUpClicked(_ sender: Any) {
